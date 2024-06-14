@@ -1,9 +1,5 @@
 # 一些射频功率放大器DPD算法的论文复现，包括传统的级数模型和记忆多项式模型
 
-## 该脚本实现了复杂高效神经网络行为模型到VerilogA行为模型之间的自动转换
-## 优势
-- 首次将可变仿真步长的离散递归神经网络，包括RNN,GRU,LSTM,BiLSTM以及注意力机制部署到了Verilog-A中，代码十分简洁高效
-- 实现对代码超参数的灵活配置
 ###  AVDTDNN
 Y. Zhang, Y. Li, F. Liu and A. Zhu, "Vector Decomposition Based Time-Delay Neural Network Behavioral Model for Digital Predistortion of RF Power Amplifiers," in IEEE Access, vol. 7, pp. 91559-91568, 2019, doi: 10.1109/ACCESS.2019.2927875.
 ![img.png](img.png)
